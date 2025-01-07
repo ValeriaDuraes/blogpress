@@ -1,0 +1,19 @@
+{
+  "name": "blogpress",
+  "version": "1.0.0",
+  "description": "In this project I'll create a blog, that will have an administration panel and a space where the writers will use in order to create there content. This project will help me to improve my skills with Node.JS, by creating a system with the CRUD operations on the backend and on the frontend build everythig with Bootstrap library.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "author": "Valéria Durães",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9",
+    "pg": "^8.13.1",
+    "sequelize": "^6.37.5",
+    "slugify": "^1.6.6"
+  }
+}
